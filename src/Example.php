@@ -16,7 +16,8 @@ class Example
             7 => 'sete',
             8 => 'oito',
             9 => 'nove',
-            10 => 'dez'
+            10 => 'dez',
+            11 => 'onze'
         ];
 
         $length = 0;
