@@ -1,0 +1,19 @@
+{
+    "name": "amcosta/dojo-contato-letras-dos-numeros",
+    "description": "Resolvendo o problemas do dojo puzzle",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Dojo\\": "src",
+            "Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    }
+}

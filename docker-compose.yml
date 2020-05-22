@@ -1,0 +1,11 @@
+version: "3.5"
+services:
+    php:
+        build:
+            context: .
+        image: amcosta/dojo
+        container_name: dojo
+        volumes:
+            - .:/var/www/html
+        command: ["./docker-entrypoint.sh"]
+        tty: true
