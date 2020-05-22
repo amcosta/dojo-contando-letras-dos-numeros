@@ -17,8 +17,36 @@ class Example
             8 => 'oito',
             9 => 'nove',
             10 => 'dez',
-            11 => 'onze'
+            11 => 'onze',
+            12 => 'doze',
+            13 => 'treze'
         ];
+
+        $unidades = [
+    		'um',
+    		'dois',
+    		'tres',
+    		'quatro',
+    		'cinco',
+    		'seis',
+    		'sete',
+    		'oito',
+    		'nove',
+    		'dez'
+        ];
+
+        $onzeaovinte = [
+        	'onze',
+        	'doze',
+        	'treze',
+        	'quatorze',
+        	'quinze',
+        	'dezesseis',
+        	'dezessete',
+        	'dezoito',
+        	'dezenove'
+        ];
+
 
         $length = 0;
 

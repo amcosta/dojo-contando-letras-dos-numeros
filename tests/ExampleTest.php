@@ -27,4 +27,11 @@ class ExampleTest extends TestCase
         $numero = 13;
         $this->assertEquals(53, $example->contarLetras($numero));
     }
+
+    public function testContandoAsLetrasDe1A21()
+    {
+        $example = new Example();
+        $numero = 21;
+        $this->assertEquals(245, $example->contarLetras($numero));
+    }
 }
