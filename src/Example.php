@@ -4,7 +4,7 @@ namespace Dojo;
 
 class Example
 {
-    public function contarLetras(array $numeros)
+    public function contarLetras(int $numero)
     {
         $array = [
             1 => 'um',
@@ -21,8 +21,8 @@ class Example
 
         $length = 0;
 
-        foreach($array as $key=>$string) {
-            $length += strlen($string);
+        for($indice = 1; $indice <= $numero; $indice++) {
+            $length += strlen($array[$indice]);
         }
 
         return $length;
