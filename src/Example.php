@@ -25,6 +25,16 @@ class Example
         7 => 'sete',
         8 => 'oito',
         9 => 'nove',
+        10 => 'dez',
+        11 => 'onze',
+        12 => 'doze',
+        13 => 'treze',
+        14 => 'quatorze',
+        15 => 'quinze',
+        16 => 'dezesseis',
+        17 => 'dezessete',
+        18 => 'dezoito',
+        19 => 'dezenove'
     ];
 
     public function contarLetras(int $numero)
@@ -83,9 +93,13 @@ class Example
         $length = 0;
         $str_numero = str_split($numero); # [ '2', '3']
         ​
-         if (count($str_numero) == 1) {
-             $length += $this->dezenas[$str_numero[0]];
-         }
+        if($numero <= 19 ) {
+            return 0;
+        }
+
+        if (count($str_numero) == 1) {
+            $length += $this->unidades[$str_numero[0]];
+        }
 
         if (count($str_numero) == 2) {
             $length += $this->dezenas[$str_numero[0]];
