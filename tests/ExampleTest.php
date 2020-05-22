@@ -7,9 +7,10 @@ use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
 {
-    public function testTrue()
+    public function testContando21Caracteres()
     {
         $example = new Example();
-        $this->assertTrue($example->exec());
+        $numeros = [1, 2, 3, 4, 5];
+        $this->assertEquals(21, $example->contarLetras($numeros));
     }
 }

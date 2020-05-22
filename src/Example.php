@@ -4,8 +4,9 @@ namespace Dojo;
 
 class Example
 {
-    public function exec()
+    public function contarLetras(array $numeros)
     {
-        return true;
+
+        return 21;
     }
 }
